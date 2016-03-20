@@ -1,7 +1,11 @@
 .svg-main {
-  width: 50%;
-  height: 50%;
+  width: 65%;
+  height: 65%;
 
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 5vw;
 }
 h3 {
   text-transform: uppercase;
@@ -12,6 +16,7 @@ h4 {
 
 h1 {
   text-transform: uppercase;
+  font-size: 9vw;
 }
 a h1 {
   color: black;
@@ -23,4 +28,7 @@ p a {
   color: black;
   text-decoration: underline;
   cursor: pointer;
+}
+p {
+   font-size: 1.8vw;
 }
