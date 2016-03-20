@@ -14,7 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    background: #D7D7D7;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
    font-weight: 600;
    font-style: normal;
    font-stretch: normal; 
+   background: #D7D7D7;
 }
 
 @font-face {
