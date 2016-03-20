@@ -37,6 +37,7 @@ h4 {
 h1 {
   text-transform: uppercase;
   font-size: 9vw;
+  margin-bottom: 0;
 }
 a h1 {
   color: black;
