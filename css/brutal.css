@@ -52,3 +52,7 @@ p a {
 p {
    font-size: 1.8vw;
 }
+
+nav p {
+  cursor: pointer;
+}
