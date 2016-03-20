@@ -13,6 +13,11 @@
 nav {
   display: inline-block;
 }
+.body {
+  padding-top: 100px;
+
+}
+
 .header {
   position: fixed;
   width: 100%;
