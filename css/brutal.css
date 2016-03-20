@@ -53,6 +53,10 @@ p {
    font-size: 1.8vw;
 }
 
-nav p {
+.nav-link {
   cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: line-through;
 }
