@@ -1,6 +1,21 @@
 .svg-main {
+  margin-top: 100px;
   width: 90%;
   height: 90%;
+}
+
+.svg-secondary {
+  width: 35%;
+  height: 35%;
+  float: right;
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+}
+.header {
+  position: fixed;
+  width: 100%;
 }
 
 h2 {
