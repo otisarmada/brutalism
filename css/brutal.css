@@ -45,6 +45,13 @@ nav {
   position: fixed;
   width: 100%;
 }
+.top-horizontal-img{
+  margin-left: -4vw;
+  animation-duration: 3s;
+  animation-name: slidein3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
 .img-portrait {
   position: absolute;
@@ -53,7 +60,7 @@ nav {
   width: 25vw;
 }
 .left-vertical-img{
-  margin-top: 110px;
+  margin-top: -22vw;
   width: 23vw;
   animation-duration: 3s;
   animation-name: slidein;
@@ -61,13 +68,42 @@ nav {
   animation-direction: alternate;
 }
 
+.right-vertical-img{
+  margin-top: 20vw;
+  width: 23vw;
+  animation-duration: 3s;
+  animation-name: slidein2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
 @keyframes slidein {
   from {
-    margin-top: -288px;
+    margin-top: -22vw;
   }
 
   to {
-    margin-top: 155px;
+    margin-top: 13vw
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-top: 33vw;
+  }
+
+  to {
+    margin-top: 20vw;
+  }
+}
+
+@keyframes slidein3 {
+  from {
+    margin-left: -15vw;
+  }
+
+  to {
+   margin-left: 4vw;
   }
 }
 
