@@ -269,25 +269,25 @@ By arming people with information about good design and the built environment, a
           }
         });
         $(document).ready(function () {
-             $(document).on('click', '.tickets-link', function () {
+             $(document).on('touchstart', '.tickets-link', function () {
                var $extraHeight = 80;
                 $('html,body').animate({
                     scrollTop: $(".tickets").offset().top - $extraHeight }, 'slow');
                 return false;
               });
-             $(document).on('click', '.whose-link', function () {
+             $(document).on('touchstart', '.whose-link', function () {
                var $extraHeight = 80;
                 $('html,body').animate({
                     scrollTop: $(".whose").offset().top - $extraHeight}, 'slow');
                 return false;
               });
-             $(document).on('click', '.expect-link', function () {
+             $(document).on('touchstart', '.expect-link', function () {
                var $extraHeight = 90;
                 $('html,body').animate({
                     scrollTop: $(".expect").offset().top - $extraHeight}, 'slow');
                 return false;
               });
-             $(document).on('click', '.contact-link', function () {
+             $(document).on('touchstart', '.contact-link', function () {
                var $extraHeight = 80;
                 $('html,body').animate({
                     scrollTop: $(".contact").offset().top - $extraHeight}, 'slow');
