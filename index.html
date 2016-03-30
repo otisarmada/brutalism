@@ -257,7 +257,7 @@
               $('.svg-secondary').fadeIn();
             }
           });
-         $(document).on('click', '.tickets-link', function () {
+         $(document).on('touchstart', '.tickets-link', function () {
             console.log("CLICKED");
             $('html,body').animate({
                 scrollTop: $(".tickets").offset().top}, 'slow');
