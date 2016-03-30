@@ -53,6 +53,9 @@ nav {
   animation-direction: alternate;
 }
 
+.bottom-right-img{
+  padding-right: 5vw;
+}
 .img-portrait {
   position: absolute;
   margin-top: 19px;
@@ -62,10 +65,6 @@ nav {
 .left-vertical-img{
   margin-top: -22vw;
   width: 23vw;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 .right-vertical-img{
