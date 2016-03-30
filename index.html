@@ -25,15 +25,15 @@
             TICKETS
           </span>
           <br>
-          <span id="#whose" class="nav-link">
+          <span  class="whose-link nav-link">
             WHOS INVOLVED
           </span>
           <br>
-          <span id="#expect" class="nav-link">
+          <span class="expect-link nav-link">
             WHAT TO EXPECT
           </span>
           <br>
-          <span id="#contact" class="nav-link">
+          <span class="contact-link nav-link">
             CONTACT
           </span>
           </p>
@@ -45,6 +45,7 @@
         <div class="row">
           <img class="mobile-splash hidden-sm hidden-md hidden-lg hidden-xl" src="img/landing.gif" loop="INFINITE"></img>
           <img class="svg-main hidden-xs" src="img/FINGERSCROSSEDSVG2.svg"></img>
+          <img class="landing-gif hidden-xs" src="img/landing_desk.gif"></img>
           <img class="svg-mobile hidden-sm hidden-md hidden-lg hidden-xl" src="img/FINGERSCROSSEDSVG2.svg"></img>
         </div>
         <br>
@@ -130,6 +131,7 @@
               <h1> Book Now </h1>
             </a>
             <p> 122 Roseneath St, Clifton Hill </p>
+            <div class="expect"></div>
             <h2>What to expect</h2>
             <p>The Otis Armada team prides ourselves on approaching a feast in no style but our own. We want our experience to be as gratifying to the eyes and ears as it is to the palate. Over the course of a few hours a parade of curated food, wine and art will be served. Otis Armada salutes communal eating so it is likely you will meet some other deviants you ought to revel with. We will all be sitting together and served at once. Before and in-between your five courses will be a host of small snacks which will make you think and encourage you to drink. Beer, Wine and some ruff stuff will be paired with each plate. You won’t leave hungry, you won’t leave empty handed and we advise you don’t drive.
             <br>
@@ -153,7 +155,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row whose">
           <div class="col-sm-8 col-md-8 col-lg-8 col-xl-8">
             <h2>Creative Team</h2>
             <p>Laura Clauscen, Lauren Stephens & Fred Mora Practise Studio Practise, Lucky Prawn, Sugar Prawn Across the whole Otis Creative team is a mixed shopping bag of projects spanning from installation design to bespoke media content. This team is one that concerns themselves on pushing boundaries and bringing never seen before solutions to commonly seen problems. Clients they have worked both with and for consist of Vice, NGV, Ok-1, Aesop, Protein Networks, Studio UP, Sample, Ladies of Leisure Magazine, ID Magazine and Captain Morgans.</p>
@@ -230,7 +232,7 @@
             <h2>Brand Partners</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row contact">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <h2>Contact</h2>
             <p>
@@ -248,22 +250,36 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script>
-    $(document).ready(function () {
-          $(document).scroll(function() {
-            var y = $(this).scrollTop();
-            if (y < 700) {
-              $('.svg-secondary').fadeOut();
-            } else {
-              $('.svg-secondary').fadeIn();
-            }
+        $(document).scroll(function() {
+          var y = $(this).scrollTop();
+          if (y < 700) {
+            $('.svg-secondary').fadeOut();
+          } else {
+            $('.svg-secondary').fadeIn();
+          }
+        });
+        $(document).ready(function () {
+             $(document).on('click', '.tickets-link', function () {
+                $('html,body').animate({
+                    scrollTop: $(".tickets").offset().top}, 'slow');
+                return false;
+              });
+             $(document).on('click', '.whose-link', function () {
+                $('html,body').animate({
+                    scrollTop: $(".whose").offset().top}, 'slow');
+                return false;
+              });
+             $(document).on('click', '.expect-link', function () {
+                $('html,body').animate({
+                    scrollTop: $(".expect").offset().top}, 'slow');
+                return false;
+              });
+             $(document).on('click', '.contact-link', function () {
+                $('html,body').animate({
+                    scrollTop: $(".contact").offset().top}, 'slow');
+                return false;
+              });
           });
-         $(document).on('touchstart', '.tickets-link', function () {
-            console.log("CLICKED");
-            $('html,body').animate({
-                scrollTop: $(".tickets").offset().top}, 'slow');
-            return false;
-          });
-      });
         </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

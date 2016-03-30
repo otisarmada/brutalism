@@ -1,5 +1,4 @@
 .svg-main {
-  margin-top: 100px;
   width: 82%;
   position: absolute;
   z-index: 1;
@@ -19,6 +18,10 @@
   position: absolute;
   margin-top: 91vw;
 }
+.landing-gif{
+  width: 100%;
+  position: absolute;
+}
 .text-margin {
   margin-top: 56vw;
 }
@@ -29,6 +32,7 @@
   right: 0;
   position: absolute;
   display: inline-block;
+  display: none;
   z-index: 100;
 }
 
@@ -40,10 +44,6 @@ nav {
   z-index:99;
 }
 
-.body {
-  padding-top: 100px;
-
-}
 
 .header {
   position: fixed;
@@ -228,7 +228,6 @@ p {
     position: absolute;
     top: 4px;
     right: 10px;
-    display: inline-block;
     z-index: 100;
   }
 
