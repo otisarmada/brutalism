@@ -175,6 +175,10 @@ p {
     margin-bottom: 5px;
 
   }
+
+.left-vertical-img{
+  display: none;
+}
   h1 {
     font-size: 5vw;
   }
