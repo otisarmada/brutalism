@@ -36,6 +36,7 @@ body {
 }
 
 
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -57,6 +58,12 @@ body {
 /*
  * A better looking default horizontal rule
  */
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: line-through;
+
+}
 
 hr {
     display: block;
