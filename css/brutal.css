@@ -10,6 +10,9 @@
     position: absolute;
     z-index: 1;
 }
+.mobile-bottom-img {
+  width: 100%;
+}
 .mobile-splash {
   width: 100%;
   z-index: -1;
@@ -207,8 +210,12 @@ p {
   }
   .tickets {
     text-align: right;
-
+    
   }
+
+.mobile-bottom-img {
+  width: 100%;
+}
   h2 {
     font-size: 6.2vw;
   }
