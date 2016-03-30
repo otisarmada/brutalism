@@ -199,6 +199,10 @@ p {
 p {
     font-size: 3.9vw;
   }
+  .tickets {
+    text-align: right;
+
+  }
   h2 {
     font-size: 6.2vw;
   }
