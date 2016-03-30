@@ -275,7 +275,19 @@ By arming people with information about good design and the built environment, a
                     scrollTop: $(".tickets").offset().top - $extraHeight }, 'slow');
                 return false;
               });
+             $(document).on('click', '.tickets-link', function () {
+               var $extraHeight = 80;
+                $('html,body').animate({
+                    scrollTop: $(".tickets").offset().top - $extraHeight }, 'slow');
+                return false;
+              });
              $(document).on('touchstart', '.whose-link', function () {
+               var $extraHeight = 80;
+                $('html,body').animate({
+                    scrollTop: $(".whose").offset().top - $extraHeight}, 'slow');
+                return false;
+              });
+             $(document).on('click', '.whose-link', function () {
                var $extraHeight = 80;
                 $('html,body').animate({
                     scrollTop: $(".whose").offset().top - $extraHeight}, 'slow');
@@ -287,7 +299,19 @@ By arming people with information about good design and the built environment, a
                     scrollTop: $(".expect").offset().top - $extraHeight}, 'slow');
                 return false;
               });
+             $(document).on('click', '.expect-link', function () {
+               var $extraHeight = 90;
+                $('html,body').animate({
+                    scrollTop: $(".expect").offset().top - $extraHeight}, 'slow');
+                return false;
+              });
              $(document).on('touchstart', '.contact-link', function () {
+               var $extraHeight = 80;
+                $('html,body').animate({
+                    scrollTop: $(".contact").offset().top - $extraHeight}, 'slow');
+                return false;
+              });
+             $(document).on('click', '.contact-link', function () {
                var $extraHeight = 80;
                 $('html,body').animate({
                     scrollTop: $(".contact").offset().top - $extraHeight}, 'slow');
