@@ -21,19 +21,19 @@
       <div class="header">
         <nav class="col-md-8 hidden-sm hidden-md hidden-lg hidden-xl">
           <p>
-          <span class="nav-link">
+          <span class="tickets-link nav-link">
             TICKETS
           </span>
           <br>
-          <span class="nav-link">
+          <span id="#whose" class="nav-link">
             WHOS INVOLVED
           </span>
           <br>
-          <span class="nav-link">
+          <span id="#expect" class="nav-link">
             WHAT TO EXPECT
           </span>
           <br>
-          <span class="nav-link">
+          <span id="#contact" class="nav-link">
             CONTACT
           </span>
           </p>
@@ -70,7 +70,7 @@
            <img class="img-portrait top-horizontal-img" src="img/img3.gif"></img>
          </div>
         </div>
-
+        <div class="tickets"> </div>
         <div class="row">
           <div class="col-md-3 col-xs-5 col-sm-3 col-lg-3 col-xl-3"></div>
           <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 hidden-xs">
@@ -248,6 +248,7 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script>
+    $(document).ready(function () {
           $(document).scroll(function() {
             var y = $(this).scrollTop();
             if (y < 700) {
@@ -256,6 +257,13 @@
               $('.svg-secondary').fadeIn();
             }
           });
+         $(document).on('click', '.tickets-link', function () {
+            console.log("CLICKED");
+            $('html,body').animate({
+                scrollTop: $(".tickets").offset().top}, 'slow');
+            return false;
+          });
+      });
         </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
