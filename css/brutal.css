@@ -36,6 +36,7 @@ nav {
   position: absolute;
   z-index:99;
 }
+
 .body {
   padding-top: 100px;
 
@@ -44,6 +45,7 @@ nav {
 .header {
   position: fixed;
   width: 100%;
+  z-index:99;
 }
 .top-horizontal-img{
   margin-left: -4vw;
@@ -150,6 +152,7 @@ p {
    font-size: 1.5vw;
    text-align-last: left;
    text-align:justify;
+   z-index: -1;
 }
 
 .nav-link {
@@ -189,7 +192,7 @@ p {
     top: 4px;
     right: 10px;
     display: inline-block;
-    z-index: 100;
+    z-index: 1000;
   }
 
   .text-margin {
