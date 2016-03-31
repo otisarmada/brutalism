@@ -212,6 +212,9 @@ p {
     text-align: right;
     
   }
+  .left-vertical-img{
+    margin-top: -23vw;
+  }
 
 .mobile-bottom-img {
   width: 100%;
