@@ -149,6 +149,7 @@ h1{
 }
 
 
+.reseponse,
 p {
    line-height: 1.1;
    margin-top: 15px;
@@ -173,6 +174,7 @@ p {
 
 /* tablet */
 @media (min-width: 544px) and (max-width: 768px){
+.response,
 p {
     font-size: 1.8vw;
   }
@@ -205,8 +207,9 @@ p {
 
 /* mobile */
 @media (max-width: 544px) {
+.response,
 p {
-    font-size: 3.9vw;
+    font-size: 3.9vw!important;
   }
   .tickets {
     text-align: right;
@@ -237,4 +240,8 @@ p {
   .text-margin {
     margin-top: 169vw;
   }
+}
+.mce-inline-error {
+  background: pink;
+  
 }
