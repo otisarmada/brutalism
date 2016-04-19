@@ -1,3 +1,7 @@
+.done {
+  text-decoration: line-through;
+}
+
 .svg-main {
   width: 82%;
   position: absolute;
